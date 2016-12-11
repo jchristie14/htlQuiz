@@ -60,7 +60,7 @@ var y = function() {
 return 1+1;
 
 };
-```JavaScript
+```
 
 The first stores and immediately invoked function, it will return the value of 2 as soon as “x” is called. The second stores the function in a variable; the function is called by entering “y().”
 
@@ -155,7 +155,7 @@ A script tag could send more specific information about the user media, such as 
 
 **\*\* the image is “viewable” if any part of it appears on the screen (so if the image is entirely above or below the viewport, then the user cannot see it, so it is not considered “viewable”)**
 
-```javascript
+```JavaScript
 "use strict";
 
   function isViewable(){
@@ -178,4 +178,4 @@ A script tag could send more specific information about the user media, such as 
   }
 		
 	  setInterval(isViewable, 2000);
-```javascript
+```

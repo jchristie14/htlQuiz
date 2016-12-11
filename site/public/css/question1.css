@@ -1,3 +1,19 @@
-body {
+#red {
+	height: 200px;
+	width: 200px;
 	background-color: red;
+}
+
+#blue {
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+}
+
+#green {
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	display: inline-block;
+	margin: 50px 50px;
 }

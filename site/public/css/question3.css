@@ -1,3 +1,8 @@
 body {
 	background-color: green;
+	width: 4000px;
+}
+
+img {
+	margin: 0px 2000px;
 }

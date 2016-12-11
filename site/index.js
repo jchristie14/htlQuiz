@@ -13,10 +13,12 @@ app.use(express.static('public'));
 app.set('port', process.env.PORT || 3000)
 
 app.get('/', function(req, res){
+	//console.log(req);
 	res.render('home');
 });
 
 app.get('/question1', function(req, res){
+	console.log(req.headers);
 	res.render('question1');
 });
 
@@ -27,6 +29,8 @@ app.get('/question2', function(req, res){
 app.get('/question3', function(req, res){
 	res.render('question3');
 });
+
+//app.get('/public/images/')
 
 // custom 404 page
 app.use(function(req, res){

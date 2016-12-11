@@ -38,11 +38,11 @@ div {background:#fff;}
 
 **7. What is the difference between these 2 uses of the ```<script>``` tag?**
 
-```javascript
+```
 <script src=”http://example.com/whatever.js”></script>
 
 <script>var whatever = true</script>
-```javascript
+```
 
 The first tag links a separate javascript file whose code will execute as the page is loaded. The second will execute when the browser reaches this tag and will set the variable “whatever” to the value of “true.”
 

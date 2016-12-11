@@ -48,7 +48,7 @@ The first tag links a separate javascript file whose code will execute as the pa
 
 **8. What is the difference between these two javascript snippets?**
 
-```javascript
+```JavaScript
 var x = function() {
 
 return 1+1;
@@ -60,7 +60,7 @@ var y = function() {
 return 1+1;
 
 };
-```javascript
+```JavaScript
 
 The first stores and immediately invoked function, it will return the value of 2 as soon as “x” is called. The second stores the function in a variable; the function is called by entering “y().”
 
